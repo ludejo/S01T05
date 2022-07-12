@@ -10,6 +10,7 @@ public class Main {
             GestorDirectorisV5.serialitzar(cotxe, fitxer);
         } else if (flag.equals("-d")) {
             cotxe = (Cotxe) GestorDirectorisV5.desserialitzar(fitxer);
+            System.out.println(cotxe.toString());
         } else {
             System.out.println("Argument no reconegut");
         }

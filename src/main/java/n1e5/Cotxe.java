@@ -1,6 +1,8 @@
 package n1e5;
 
-public class Cotxe {
+import java.io.Serializable;
+
+public class Cotxe implements Serializable {
     private String marca;
     private String model;
     private int potencia;
@@ -27,5 +29,15 @@ public class Cotxe {
 
     public int getPesKg() {
         return pesKg;
+    }
+
+    @Override
+    public String toString() {
+        return "Cotxe{" +
+                "marca='" + marca + '\'' +
+                ", model='" + model + '\'' +
+                ", potencia=" + potencia +
+                ", pesKg=" + pesKg +
+                '}';
     }
 }
