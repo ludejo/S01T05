@@ -28,7 +28,7 @@ Exemple d'ús:
 ![n1e5b](./img/n1e5b.png)
 
 ## N2E1
-El primer argument és la localització del fitxer de propietats; el segon argument és el nom de la propietat que conté el camí del directori a guardar; el tercer argument és el camí del fitxer on es guardarà l'estructura del directori.
+El primer argument és la localització del fitxer de propietats; el segon argument és el nom de la propietat que conté el camí del directori a guardar; el tercer argument és el camí del fitxer on es guardarà l'estructura del directori. S'utilitza la mateixa classe i mètode que en N1E3.
 Exemple d'ús:
 ![n2e1](./img/n2e1.png)
 
