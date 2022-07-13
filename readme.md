@@ -33,7 +33,7 @@ Exemple d'ús:
 ![n2e1](./img/n2e1.png)
 
 ## N3E1
-
+El primer argument és de tipus flag, indicant el mode de l'encriptador: encriptar (-e) o desencriptar (-d). Exemple d'ús:
 -e <fitxer original> <fitxer encriptat> <clau>
 -d <fitxer original (encriptat)> <fitxer desencriptat> clau
 Exemple d'ús:
